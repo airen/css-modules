@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
+.AppLogo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
+.AppHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,7 +19,7 @@
   color: white;
 }
 
-.App-link {
+.AppHink {
   color: #61dafb;
 }
 
@@ -30,4 +30,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.composeClass {
+  composes: primary from './common.css';
+  composes: white from './common.css';
+  composes: button from './Button/Button.module.css';
+}
+
+.border {
+  border: 2px solid #f25;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  margin: 5px;
 }

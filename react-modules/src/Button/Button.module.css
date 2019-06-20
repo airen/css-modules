@@ -1,0 +1,22 @@
+.button {
+    --primary: #f36;
+    --color: #fff;
+
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin: 5px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .28s ease;
+}
+
+.buttonPrimary {
+    composes: button;
+    background: var(--primary);
+    color: var(--color);
+}
+
+.buttonPrimary:hover {
+    box-shadow: 0 0 3px 5px var(--primary);
+}

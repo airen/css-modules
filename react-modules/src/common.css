@@ -1,0 +1,9 @@
+.primary {
+    --primary: #f36;
+}
+.white {
+    --color: #fff;
+}
+.p10 {
+    padding: 10px;
+}
