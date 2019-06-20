@@ -1,0 +1,11 @@
+.button {
+    --primary: #fe90af;
+    --color: #fff;
+
+    background: var(--primary);
+    color: var(--color);
+
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px;
+}
