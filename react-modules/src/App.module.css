@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
+.AppLogo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
+.AppHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,7 +19,7 @@
   color: white;
 }
 
-.App-link {
+.AppLink {
   color: #61dafb;
 }
 
@@ -30,4 +30,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.primary > div,
+[data-primary-button="primary"] > div{
+  background: linear-gradient(to right, #f36, #90a);
+  color: #fff;
+}
+
+[data-type="success"] {
+  background: linear-gradient(to bottom, #f09, #adf);
 }
