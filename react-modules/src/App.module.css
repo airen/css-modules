@@ -23,6 +23,12 @@
   color: #61dafb;
 }
 
+.App-link__active {
+  text-shadow: 1px 1px 3px rgba(90, 90, 120, .5);
+  color: #f36;
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.underline {
+  padding-bottom: 5px;
+  border-bottom: 3px double currentColor;
+}
+
+.App-button {
+  background: linear-gradient(to bottom, #09a, #f09);
+  color: #fff;
 }

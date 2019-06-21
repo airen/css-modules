@@ -1,0 +1,5 @@
+.button-primary {
+    background: linear-gradient(to bottom, #09a, #f09);
+    color: #fff;
+    padding: 10px;
+}
